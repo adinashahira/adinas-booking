@@ -1,0 +1,13 @@
+D:\Adina's Office\Work\Adina's Booking Management System\Adinas Booking\Adinas Booking\bin\Debug\Adinas Booking.exe.config
+D:\Adina's Office\Work\Adina's Booking Management System\Adinas Booking\Adinas Booking\bin\Debug\Adinas Booking.exe
+D:\Adina's Office\Work\Adina's Booking Management System\Adinas Booking\Adinas Booking\bin\Debug\Adinas Booking.pdb
+D:\Adina's Office\Work\Adina's Booking Management System\Adinas Booking\Adinas Booking\obj\Debug\Adinas Booking.csprojResolveAssemblyReference.cache
+D:\Adina's Office\Work\Adina's Booking Management System\Adinas Booking\Adinas Booking\obj\Debug\Adinas_Booking.Home.resources
+D:\Adina's Office\Work\Adina's Booking Management System\Adinas Booking\Adinas Booking\obj\Debug\Adinas_Booking.Properties.Resources.resources
+D:\Adina's Office\Work\Adina's Booking Management System\Adinas Booking\Adinas Booking\obj\Debug\Adinas_Booking.Urus.resources
+D:\Adina's Office\Work\Adina's Booking Management System\Adinas Booking\Adinas Booking\obj\Debug\Adinas Booking.csproj.GenerateResource.Cache
+D:\Adina's Office\Work\Adina's Booking Management System\Adinas Booking\Adinas Booking\obj\Debug\Adinas Booking.exe
+D:\Adina's Office\Work\Adina's Booking Management System\Adinas Booking\Adinas Booking\obj\Debug\Adinas Booking.pdb
+D:\Adina's Office\Work\Adina's Booking Management System\Adinas Booking\Adinas Booking\obj\Debug\Adinas_Booking.PelangganBaru.resources
+D:\Adina's Office\Work\Adina's Booking Management System\Adinas Booking\Adinas Booking\obj\Debug\Adinas_Booking.TempahanBaru.resources
+D:\Adina's Office\Work\Adina's Booking Management System\Adinas Booking\Adinas Booking\obj\Debug\Adinas_Booking.Kemaskini.resources
