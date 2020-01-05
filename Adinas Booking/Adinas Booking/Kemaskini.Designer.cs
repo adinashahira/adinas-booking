@@ -70,9 +70,21 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtRemarks = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.rbtnPaid = new System.Windows.Forms.RadioButton();
+            this.label7 = new System.Windows.Forms.Label();
+            this.rbtnDone = new System.Windows.Forms.RadioButton();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtOrDesign = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtOrFabric = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.grpCustInfo.SuspendLayout();
             this.grpCustMeasure.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtSleeve2
@@ -182,7 +194,7 @@
             this.urusToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(883, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(894, 28);
             this.menuStrip1.TabIndex = 23;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -203,24 +215,26 @@
             this.btnCancel.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnCancel.Location = new System.Drawing.Point(452, 904);
+            this.btnCancel.Location = new System.Drawing.Point(460, 992);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(159, 51);
             this.btnCancel.TabIndex = 22;
             this.btnCancel.Text = "Batal";
             this.btnCancel.UseVisualStyleBackColor = false;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnUpdate
             // 
             this.btnUpdate.BackColor = System.Drawing.Color.DeepPink;
             this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpdate.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnUpdate.Location = new System.Drawing.Point(260, 904);
+            this.btnUpdate.Location = new System.Drawing.Point(268, 992);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(158, 51);
             this.btnUpdate.TabIndex = 21;
             this.btnUpdate.Text = "Kemaskini";
             this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // label1
             // 
@@ -324,7 +338,7 @@
             this.grpCustMeasure.Controls.Add(this.label9);
             this.grpCustMeasure.Location = new System.Drawing.Point(12, 404);
             this.grpCustMeasure.Name = "grpCustMeasure";
-            this.grpCustMeasure.Size = new System.Drawing.Size(842, 317);
+            this.grpCustMeasure.Size = new System.Drawing.Size(864, 294);
             this.grpCustMeasure.TabIndex = 20;
             this.grpCustMeasure.TabStop = false;
             this.grpCustMeasure.Text = "Ukuran Pelanggan";
@@ -464,12 +478,124 @@
             this.label9.TabIndex = 0;
             this.label9.Text = "Bahu";
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.txtRemarks);
+            this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Controls.Add(this.rbtnPaid);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.rbtnDone);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.txtOrDesign);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.txtOrFabric);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Location = new System.Drawing.Point(12, 728);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(853, 258);
+            this.groupBox1.TabIndex = 24;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Maklumat Tempahan";
+            // 
+            // txtRemarks
+            // 
+            this.txtRemarks.Location = new System.Drawing.Point(91, 178);
+            this.txtRemarks.Multiline = true;
+            this.txtRemarks.Name = "txtRemarks";
+            this.txtRemarks.Size = new System.Drawing.Size(681, 60);
+            this.txtRemarks.TabIndex = 9;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(19, 201);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(57, 17);
+            this.label8.TabIndex = 8;
+            this.label8.Text = "Catatan";
+            // 
+            // rbtnPaid
+            // 
+            this.rbtnPaid.AutoSize = true;
+            this.rbtnPaid.Location = new System.Drawing.Point(611, 135);
+            this.rbtnPaid.Name = "rbtnPaid";
+            this.rbtnPaid.Size = new System.Drawing.Size(136, 21);
+            this.rbtnPaid.TabIndex = 7;
+            this.rbtnPaid.TabStop = true;
+            this.rbtnPaid.Text = "Bayaran diterima";
+            this.rbtnPaid.UseVisualStyleBackColor = true;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(418, 135);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(184, 17);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "Tanda jika bayaran diterima";
+            // 
+            // rbtnDone
+            // 
+            this.rbtnDone.AutoSize = true;
+            this.rbtnDone.Location = new System.Drawing.Point(212, 135);
+            this.rbtnDone.Name = "rbtnDone";
+            this.rbtnDone.Size = new System.Drawing.Size(127, 21);
+            this.rbtnDone.TabIndex = 5;
+            this.rbtnDone.TabStop = true;
+            this.rbtnDone.Text = "Tempahan siap";
+            this.rbtnDone.UseVisualStyleBackColor = true;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(19, 135);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(171, 17);
+            this.label6.TabIndex = 4;
+            this.label6.Text = "Tanda jika tempahan siap";
+            // 
+            // txtOrDesign
+            // 
+            this.txtOrDesign.Location = new System.Drawing.Point(555, 37);
+            this.txtOrDesign.Multiline = true;
+            this.txtOrDesign.Name = "txtOrDesign";
+            this.txtOrDesign.Size = new System.Drawing.Size(217, 51);
+            this.txtOrDesign.TabIndex = 3;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(433, 37);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(87, 17);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "Design baju:";
+            // 
+            // txtOrFabric
+            // 
+            this.txtOrFabric.Location = new System.Drawing.Point(185, 37);
+            this.txtOrFabric.Multiline = true;
+            this.txtOrFabric.Name = "txtOrFabric";
+            this.txtOrFabric.Size = new System.Drawing.Size(217, 51);
+            this.txtOrFabric.TabIndex = 1;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(19, 37);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(145, 17);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Jenis dan warna kain:";
+            // 
             // Kemaskini
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(883, 967);
+            this.ClientSize = new System.Drawing.Size(883, 1055);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnUpdate);
@@ -484,6 +610,8 @@
             this.grpCustInfo.PerformLayout();
             this.grpCustMeasure.ResumeLayout(false);
             this.grpCustMeasure.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -533,5 +661,16 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TextBox txtRemarks;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.RadioButton rbtnPaid;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.RadioButton rbtnDone;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtOrDesign;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtOrFabric;
+        private System.Windows.Forms.Label label4;
     }
 }

@@ -11,3 +11,4 @@ D:\Adina's Office\Work\Adina's Booking Management System\Adinas Booking\Adinas B
 D:\Adina's Office\Work\Adina's Booking Management System\Adinas Booking\Adinas Booking\obj\Debug\Adinas_Booking.PelangganBaru.resources
 D:\Adina's Office\Work\Adina's Booking Management System\Adinas Booking\Adinas Booking\obj\Debug\Adinas_Booking.TempahanBaru.resources
 D:\Adina's Office\Work\Adina's Booking Management System\Adinas Booking\Adinas Booking\obj\Debug\Adinas_Booking.Kemaskini.resources
+D:\Adina's Office\Work\Adina's Booking Management System\Adinas Booking\Adinas Booking\obj\Debug\Adinas_Booking.SenaraiPelanggan.resources

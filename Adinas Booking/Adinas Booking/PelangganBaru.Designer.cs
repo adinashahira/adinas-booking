@@ -120,6 +120,7 @@
             // 
             // txtCustName
             // 
+            this.txtCustName.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtCustName.Location = new System.Drawing.Point(91, 46);
             this.txtCustName.Name = "txtCustName";
             this.txtCustName.Size = new System.Drawing.Size(266, 22);
@@ -439,6 +440,7 @@
             this.btnCreate.TabIndex = 15;
             this.btnCreate.Text = "Cipta";
             this.btnCreate.UseVisualStyleBackColor = false;
+            this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
             // 
             // menuStrip1
             // 

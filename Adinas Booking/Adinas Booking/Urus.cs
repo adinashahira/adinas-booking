@@ -17,7 +17,7 @@ namespace Adinas_Booking
         static string constr = "Data Source=ADGWORKSTATION\\SQLEXPRESS;Initial Catalog=adinasbookingdata;Integrated Security=True";
         SqlConnection con = new SqlConnection(constr);
         SqlCommand cmd = new SqlCommand();
-        string filterCategory;
+        private int index;
 
         public Urus()
         {
@@ -35,10 +35,14 @@ namespace Adinas_Booking
             
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        public void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            index = e.RowIndex;
             Kemaskini main = new Kemaskini();
-            
+            main.custNametoPass = _custNametoPass; //pass name
+            main.orFabric = _orFabrictoPass; //pass fabric details
+            main.orDesign = _orDesigntoPass; //pass design
+            main.remarksToPass = _orRemarkstoPass; //pass remarks
             main.Show();
             this.Hide();
         }
@@ -97,14 +101,37 @@ namespace Adinas_Booking
             }
         }
 
-        private void rbtnDone_CheckedChanged(object sender, EventArgs e)
+        public string _custNametoPass
         {
-          
+            get { return txtCustName.Text.Trim(); }
         }
 
-        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        public string _orFabrictoPass
         {
+            get { return dataGridView1.Rows[index].Cells[2].Value.ToString(); }
+        }
 
+        public string _orDesigntoPass
+        {
+            get { return dataGridView1.Rows[index].Cells[3].Value.ToString(); }
+        }
+
+        public string _orRemarkstoPass
+        {
+            get { return dataGridView1.Rows[index].Cells[13].Value.ToString(); }
+        }
+
+        //public int _id
+        //{
+        //    get { return dataGridView1.Rows.Count; }
+        //}
+
+        private void daftarPelangganToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PelangganBaru main = new PelangganBaru();
+            //main.getId = _id;
+            main.Show();
+            this.Hide();
         }
     }
 }

@@ -64,6 +64,7 @@
             this.rbtnNotDone = new System.Windows.Forms.RadioButton();
             this.rbtnNotPaid = new System.Windows.Forms.RadioButton();
             this.rbtnPaid = new System.Windows.Forms.RadioButton();
+            this.daftarPelangganToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblBookingBindingSource)).BeginInit();
@@ -75,7 +76,8 @@
             this.menuStrip1.BackColor = System.Drawing.Color.HotPink;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mukaDepanToolStripMenuItem});
+            this.mukaDepanToolStripMenuItem,
+            this.daftarPelangganToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(2031, 28);
@@ -329,7 +331,6 @@
             this.rbtnDone.TabStop = true;
             this.rbtnDone.Text = "Siap";
             this.rbtnDone.UseVisualStyleBackColor = true;
-            this.rbtnDone.CheckedChanged += new System.EventHandler(this.rbtnDone_CheckedChanged);
             // 
             // rbtnNotDone
             // 
@@ -363,6 +364,13 @@
             this.rbtnPaid.TabStop = true;
             this.rbtnPaid.Text = "Bayar";
             this.rbtnPaid.UseVisualStyleBackColor = true;
+            // 
+            // daftarPelangganToolStripMenuItem
+            // 
+            this.daftarPelangganToolStripMenuItem.Name = "daftarPelangganToolStripMenuItem";
+            this.daftarPelangganToolStripMenuItem.Size = new System.Drawing.Size(136, 24);
+            this.daftarPelangganToolStripMenuItem.Text = "Daftar Pelanggan";
+            this.daftarPelangganToolStripMenuItem.Click += new System.EventHandler(this.daftarPelangganToolStripMenuItem_Click);
             // 
             // Urus
             // 
@@ -431,5 +439,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn tailorPriceDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn orRemarksDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewButtonColumn edit;
+        private System.Windows.Forms.ToolStripMenuItem daftarPelangganToolStripMenuItem;
     }
 }

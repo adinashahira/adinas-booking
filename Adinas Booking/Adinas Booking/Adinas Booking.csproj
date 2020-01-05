@@ -52,6 +52,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>adinasbookingdataDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="adinasbookingdataDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>adinasbookingdataDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +77,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SenaraiPelanggan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SenaraiPelanggan.Designer.cs">
+      <DependentUpon>SenaraiPelanggan.cs</DependentUpon>
+    </Compile>
     <Compile Include="TempahanBaru.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +114,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SenaraiPelanggan.resx">
+      <DependentUpon>SenaraiPelanggan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TempahanBaru.resx">
       <DependentUpon>TempahanBaru.cs</DependentUpon>
     </EmbeddedResource>
@@ -119,6 +133,17 @@
     </None>
     <None Include="adinasbookingdataDataSet.xss">
       <DependentUpon>adinasbookingdataDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="adinasbookingdataDataSet1.xsc">
+      <DependentUpon>adinasbookingdataDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="adinasbookingdataDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>adinasbookingdataDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="adinasbookingdataDataSet1.xss">
+      <DependentUpon>adinasbookingdataDataSet1.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
